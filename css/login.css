@@ -1,0 +1,123 @@
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body, div, ol, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+	margin:0;
+	padding:0;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	color: #848484;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img {
+	border: none;
+}
+
+body {
+	color: #000000;
+	font-family: "Century Gothic", Tahoma, sans-serif;
+	font-size: 12px;
+	background: url(../img/bg.jpg) top center repeat;
+}
+
+body a {
+	outline: 0;
+}
+
+/*bg*/
+#bg {
+	display: block;
+	width: 100%;
+	min-height: 600px;
+}
+
+/*estrutura*/
+#bg #estrutura {
+	display: block;
+	width: 723px;
+	height: 499px;
+	margin: 0 auto;
+	padding-top: 25px;
+	background: url(../img/bg_form.jpg) bottom center no-repeat;
+}
+
+/*link da cinte design*/
+#estrutura #link_cintedesign {
+	display: block;
+	width: 100%;
+	height: 82px;
+	text-align: right;
+}
+
+#estrutura #link_cintedesign a {
+	display: block;
+	width: 267px;
+	height: 82px;
+	margin-left: 272px;
+}
+
+/*link do cliente*/
+#estrutura #link_cliente {
+	display: inline-block;
+	*float: left;
+	width: 200px;
+	height: 132px;
+	vertical-align: top;
+	margin-top:93px;
+}
+
+#estrutura #link_cliente a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+#estrutura #form_login {
+	display: inline-block;
+	*float: left;
+	width: 306px;
+	height: 132px;
+	vertical-align: top;
+	margin-top: 100px;
+	padding-left:40px;
+}
+
+#estrutura #form_login li {
+	display: block;
+	width: 101%;
+	height: 40px;
+	background: url(../img/lac_bt.png) top left no-repeat;
+}
+
+#form_login .lac {
+	display: block;
+	width: 296px;
+	height: 40px;
+	background: none;
+	border: none;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#form_login .bt {
+	float: right;
+	width: 59px;
+	height: 35px;
+	border: none;
+	cursor: pointer;	
+	background: url(../img/lac_bt.png) bottom left no-repeat;
+}

@@ -1,0 +1,182 @@
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body, div, ol, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+	margin:0;
+	padding:0;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	color: #000000;
+	font-size: 12px;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img {
+	border: none;
+}
+
+td {
+	height: 32px;
+	border-bottom: solid 1px #c4c4c4;
+	border-right: solid 1px #c4c4c4;
+	padding-left: 10px;
+}
+
+/*titulos*/
+h1 {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 40px;
+	font-weight: normal;
+	margin-bottom: 50px;
+}
+
+body {
+	color: #000000;
+	font-family: "AvantGarde Bk BT", Tahoma, sans-serif;
+	font-size: 12px;
+	background: url(../img/bg.jpg) top center repeat;
+}
+
+body a {
+	outline: 0;
+}
+
+/*bg*/
+#bg {
+	display: block;
+	width: 100%;
+	min-height: 600px;
+}
+
+/*estrutura*/
+#bg #estrutura {
+	display: block;
+	width: 1000px;
+	min-height: 500px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+/*menu*/
+#estrutura #menu {
+	display: block;
+	width: 100%;
+	height: 44px;
+	background: url(../img/bg_menu.png) top center repeat-x;
+	margin-bottom: 10px;
+}
+
+#menu #ini_vol {
+	display: inline-block;
+	*float: left;
+	width: 270px;
+	height: 85%;
+	vertical-align: top;
+	padding-left: 80px;
+	padding-top: 5px;
+}
+
+#menu #ini_vol a {
+	display: inline-block;
+	*float: left;
+	width: 40%;
+	height: 24px;
+	background: url(../img/bt_menu.png) 0px 0px no-repeat;
+	vertical-align: top;
+}
+
+/*conteudo*/
+#estrutura #conteudo {
+	display: block;
+	width: 100%;
+	min-height: 400px;
+}
+
+/*conteudo pag interna*/
+#conteudo .form_menor {
+	width: 864px;
+	min-height: 190px;
+	background: #eaeaea;
+	margin: 0 auto;
+	margin-bottom: 25px;
+}
+
+#conteudo .titulo_form {
+	width: 100%;
+	height: 73px;
+	background: #fdc801 url(../img/bg_titulos_form.jpg) bottom center repeat-x;
+}
+
+#conteudo .cor_escu {
+	background: #f3f3f3;
+}
+
+#conteudo .rodape_form {
+	background: url(../img/bg_rodape_form.jpg) top center repeat-x;
+	width: 100%;
+	height: 56px;
+	border: solid 1px #d3d3d3;
+}
+
+.form_menor .col_peca {
+	width: 90px;
+}
+
+.nome_sexo {
+	display: inline-block;
+	*float: left;
+	width: 70px;
+	height: 20px;
+}
+
+.col_lac_sexo {
+	display: inline-block;
+	*float: left;
+	width: 82px;
+	height: 20px;
+}
+
+.lac_sexo {
+	width: 40px;
+	height: 20px;
+	border: solid 1px #dad8d8;
+}
+
+#conteudo .form_filtro {
+	width: 100%;
+	min-height: 300px;
+	margin-bottom: 20px;
+	background: #eaeaea;
+}
+
+.titulo_form .tit_maior {
+	text-align: center;
+	font-size: 23px;
+	background: url(../img/bg_linha_titulo.jpg) right top repeat-y;
+	border-bottom: none;
+	border-right: none;
+	padding-left: 0px;
+}
+
+.titulo_form .tit_menor {
+	text-align: center;
+	font-size: 15px;
+	background: url(../img/bg_linha_titulo.jpg) right top repeat-y;
+	border-bottom: none;
+	border-right: none;
+	padding-left: 0px;
+}

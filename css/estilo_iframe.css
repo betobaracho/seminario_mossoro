@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('../fonts/bebasneue/bebasneue-webfont.eot');
+    src: url('../fonts/bebasneue/bebasneue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebasneue/bebasneue-webfont.woff') format('woff'),
+         url('../fonts/bebasneue/bebasneue-webfont.ttf') format('truetype'),
+         url('../fonts/bebasneue/bebasneue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* IFRAME */
+.element{
+	margin-left:65px;
+}
+h3.toggler {
+	cursor: pointer;
+	font:24px 'BebasNeueRegular', Arial, sans-serif;
+	color: #000;
+	margin: 7px 0 0px 10px;
+	height:auto;
+	overflow:hidden;
+}
+.toggler p{
+	margin:10px 0 0 0;
+}
+.pag_index{
+	background:url(../img/bola.png);
+	width:47px;
+	height:47px;
+	float:left;
+	margin-right:10px;
+}
+.pag_index p{
+	margin:10px 0 0 15px;
+}
+div.element ul{
+	margin:0 0 0 -20px;
+}
+div.element ul li{
+	font:16px 'BebasNeueRegular', Arial, sans-serif;
+	*margin-left:50px;
+}
+#estrutura_iframe{
+	width:960px;
+	height:auto;
+	overflow:hidden;	
+}

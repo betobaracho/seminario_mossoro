@@ -1,0 +1,180 @@
+[13-Oct-2018 21:08:20 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 18
+[13-Oct-2018 21:08:20 UTC] PHP Warning:  mysql_select_db(): Access denied for user ''@'localhost' (using password: NO) in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 19
+[13-Oct-2018 21:08:20 UTC] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 19
+[13-Oct-2018 21:08:20 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'could not connect to database' in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php:21
+Stack trace:
+#0 /home/personalcuidador/public_html/seminario_mossoro/class/sql/Connection.class.php(12): ConnectionFactory::getConnection()
+#1 /home/personalcuidador/public_html/seminario_mossoro/class/sql/QueryExecutor.class.php(20): Connection->Connection()
+#2 /home/personalcuidador/public_html/seminario_mossoro/class/mysql/UsuarioMySqlDAO.class.php(231): QueryExecutor::execute(Object(SqlQuery))
+#3 /home/personalcuidador/public_html/seminario_mossoro/class/mysql/UsuarioMySqlDAO.class.php(38): UsuarioMySqlDAO->getRow(Object(SqlQuery))
+#4 /home/personalcuidador/public_html/seminario_mossoro/controle/validarUsuario.php(6): UsuarioMySqlDAO->validarUsuario('betobaracho', '10203040')
+#5 {main}
+  thrown in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 21
+[13-Oct-2018 21:25:26 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 18
+[13-Oct-2018 21:25:26 UTC] PHP Warning:  mysql_select_db(): Access denied for user ''@'localhost' (using password: NO) in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 19
+[13-Oct-2018 21:25:26 UTC] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 19
+[13-Oct-2018 21:25:26 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'could not connect to database' in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php:21
+Stack trace:
+#0 /home/personalcuidador/public_html/seminario_mossoro/class/sql/Connection.class.php(12): ConnectionFactory::getConnection()
+#1 /home/personalcuidador/public_html/seminario_mossoro/class/sql/QueryExecutor.class.php(20): Connection->Connection()
+#2 /home/personalcuidador/public_html/seminario_mossoro/class/mysql/UsuarioMySqlDAO.class.php(231): QueryExecutor::execute(Object(SqlQuery))
+#3 /home/personalcuidador/public_html/seminario_mossoro/class/mysql/UsuarioMySqlDAO.class.php(38): UsuarioMySqlDAO->getRow(Object(SqlQuery))
+#4 /home/personalcuidador/public_html/seminario_mossoro/controle/validarUsuario.php(6): UsuarioMySqlDAO->validarUsuario(NULL, NULL)
+#5 {main}
+  thrown in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 21
+[13-Oct-2018 21:27:21 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 18
+[13-Oct-2018 21:27:21 UTC] PHP Warning:  mysql_select_db(): Access denied for user ''@'localhost' (using password: NO) in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 19
+[13-Oct-2018 21:27:21 UTC] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 19
+[13-Oct-2018 21:27:21 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'could not connect to database' in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php:21
+Stack trace:
+#0 /home/personalcuidador/public_html/seminario_mossoro/class/sql/Connection.class.php(12): ConnectionFactory::getConnection()
+#1 /home/personalcuidador/public_html/seminario_mossoro/class/sql/QueryExecutor.class.php(20): Connection->Connection()
+#2 /home/personalcuidador/public_html/seminario_mossoro/class/mysql/UsuarioMySqlDAO.class.php(231): QueryExecutor::execute(Object(SqlQuery))
+#3 /home/personalcuidador/public_html/seminario_mossoro/class/mysql/UsuarioMySqlDAO.class.php(38): UsuarioMySqlDAO->getRow(Object(SqlQuery))
+#4 /home/personalcuidador/public_html/seminario_mossoro/controle/validarUsuario.php(6): UsuarioMySqlDAO->validarUsuario('betobaracho', '10203040')
+#5 {main}
+  thrown in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 21
+[13-Oct-2018 22:12:07 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 18
+[13-Oct-2018 22:12:07 UTC] PHP Warning:  mysql_select_db(): Access denied for user ''@'localhost' (using password: NO) in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 19
+[13-Oct-2018 22:12:07 UTC] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 19
+[13-Oct-2018 22:12:07 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'could not connect to database' in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php:21
+Stack trace:
+#0 /home/personalcuidador/public_html/seminario_mossoro/class/sql/Connection.class.php(12): ConnectionFactory::getConnection()
+#1 /home/personalcuidador/public_html/seminario_mossoro/class/sql/QueryExecutor.class.php(20): Connection->Connection()
+#2 /home/personalcuidador/public_html/seminario_mossoro/class/mysql/UsuarioMySqlDAO.class.php(231): QueryExecutor::execute(Object(SqlQuery))
+#3 /home/personalcuidador/public_html/seminario_mossoro/class/mysql/UsuarioMySqlDAO.class.php(38): UsuarioMySqlDAO->getRow(Object(SqlQuery))
+#4 /home/personalcuidador/public_html/seminario_mossoro/controle/validarUsuario.php(6): UsuarioMySqlDAO->validarUsuario('betobaracho', '10203040')
+#5 {main}
+  thrown in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 21
+[13-Oct-2018 22:12:59 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 18
+[13-Oct-2018 22:12:59 UTC] PHP Warning:  mysql_select_db(): Access denied for user ''@'localhost' (using password: NO) in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 19
+[13-Oct-2018 22:12:59 UTC] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 19
+[13-Oct-2018 22:12:59 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'could not connect to database' in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php:21
+Stack trace:
+#0 /home/personalcuidador/public_html/seminario_mossoro/class/sql/Connection.class.php(12): ConnectionFactory::getConnection()
+#1 /home/personalcuidador/public_html/seminario_mossoro/class/sql/QueryExecutor.class.php(20): Connection->Connection()
+#2 /home/personalcuidador/public_html/seminario_mossoro/class/mysql/UsuarioMySqlDAO.class.php(231): QueryExecutor::execute(Object(SqlQuery))
+#3 /home/personalcuidador/public_html/seminario_mossoro/class/mysql/UsuarioMySqlDAO.class.php(38): UsuarioMySqlDAO->getRow(Object(SqlQuery))
+#4 /home/personalcuidador/public_html/seminario_mossoro/controle/validarUsuario.php(6): UsuarioMySqlDAO->validarUsuario('betobaracho', '10203040')
+#5 {main}
+  thrown in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 21
+[13-Oct-2018 22:13:25 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 18
+[13-Oct-2018 22:13:25 UTC] PHP Warning:  mysql_select_db(): Access denied for user ''@'localhost' (using password: NO) in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 19
+[13-Oct-2018 22:13:25 UTC] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 19
+[13-Oct-2018 22:13:25 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'could not connect to database' in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php:21
+Stack trace:
+#0 /home/personalcuidador/public_html/seminario_mossoro/class/sql/Connection.class.php(12): ConnectionFactory::getConnection()
+#1 /home/personalcuidador/public_html/seminario_mossoro/class/sql/QueryExecutor.class.php(20): Connection->Connection()
+#2 /home/personalcuidador/public_html/seminario_mossoro/class/mysql/UsuarioMySqlDAO.class.php(231): QueryExecutor::execute(Object(SqlQuery))
+#3 /home/personalcuidador/public_html/seminario_mossoro/class/mysql/UsuarioMySqlDAO.class.php(38): UsuarioMySqlDAO->getRow(Object(SqlQuery))
+#4 /home/personalcuidador/public_html/seminario_mossoro/controle/validarUsuario.php(6): UsuarioMySqlDAO->validarUsuario('betobaracho', '10203040')
+#5 {main}
+  thrown in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 21
+[13-Oct-2018 22:13:54 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 18
+[13-Oct-2018 22:13:54 UTC] PHP Warning:  mysql_select_db(): Access denied for user ''@'localhost' (using password: NO) in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 19
+[13-Oct-2018 22:13:54 UTC] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 19
+[13-Oct-2018 22:13:54 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'could not connect to database' in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php:21
+Stack trace:
+#0 /home/personalcuidador/public_html/seminario_mossoro/class/sql/Connection.class.php(12): ConnectionFactory::getConnection()
+#1 /home/personalcuidador/public_html/seminario_mossoro/class/sql/QueryExecutor.class.php(20): Connection->Connection()
+#2 /home/personalcuidador/public_html/seminario_mossoro/class/mysql/UsuarioMySqlDAO.class.php(231): QueryExecutor::execute(Object(SqlQuery))
+#3 /home/personalcuidador/public_html/seminario_mossoro/class/mysql/UsuarioMySqlDAO.class.php(38): UsuarioMySqlDAO->getRow(Object(SqlQuery))
+#4 /home/personalcuidador/public_html/seminario_mossoro/controle/validarUsuario.php(6): UsuarioMySqlDAO->validarUsuario('betobaracho', '10203040')
+#5 {main}
+  thrown in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 21
+[13-Oct-2018 22:14:21 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 18
+[13-Oct-2018 22:14:21 UTC] PHP Warning:  mysql_select_db(): Access denied for user ''@'localhost' (using password: NO) in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 19
+[13-Oct-2018 22:14:21 UTC] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 19
+[13-Oct-2018 22:14:21 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'could not connect to database' in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php:21
+Stack trace:
+#0 /home/personalcuidador/public_html/seminario_mossoro/class/sql/Connection.class.php(12): ConnectionFactory::getConnection()
+#1 /home/personalcuidador/public_html/seminario_mossoro/class/sql/QueryExecutor.class.php(20): Connection->Connection()
+#2 /home/personalcuidador/public_html/seminario_mossoro/class/mysql/UsuarioMySqlDAO.class.php(231): QueryExecutor::execute(Object(SqlQuery))
+#3 /home/personalcuidador/public_html/seminario_mossoro/class/mysql/UsuarioMySqlDAO.class.php(38): UsuarioMySqlDAO->getRow(Object(SqlQuery))
+#4 /home/personalcuidador/public_html/seminario_mossoro/controle/validarUsuario.php(6): UsuarioMySqlDAO->validarUsuario('betobaracho', '10203040')
+#5 {main}
+  thrown in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 21
+[13-Oct-2018 22:16:28 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 18
+[13-Oct-2018 22:16:28 UTC] PHP Warning:  mysql_select_db(): Access denied for user ''@'localhost' (using password: NO) in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 19
+[13-Oct-2018 22:16:28 UTC] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 19
+[13-Oct-2018 22:16:28 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'could not connect to database' in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php:21
+Stack trace:
+#0 /home/personalcuidador/public_html/seminario_mossoro/class/sql/Connection.class.php(12): ConnectionFactory::getConnection()
+#1 /home/personalcuidador/public_html/seminario_mossoro/class/sql/QueryExecutor.class.php(20): Connection->Connection()
+#2 /home/personalcuidador/public_html/seminario_mossoro/class/mysql/UsuarioMySqlDAO.class.php(231): QueryExecutor::execute(Object(SqlQuery))
+#3 /home/personalcuidador/public_html/seminario_mossoro/class/mysql/UsuarioMySqlDAO.class.php(38): UsuarioMySqlDAO->getRow(Object(SqlQuery))
+#4 /home/personalcuidador/public_html/seminario_mossoro/controle/validarUsuario.php(6): UsuarioMySqlDAO->validarUsuario('betobaracho', '10203040')
+#5 {main}
+  thrown in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 21
+[13-Oct-2018 22:17:20 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 18
+[13-Oct-2018 22:17:20 UTC] PHP Warning:  mysql_select_db(): Access denied for user ''@'localhost' (using password: NO) in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 19
+[13-Oct-2018 22:17:20 UTC] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 19
+[13-Oct-2018 22:17:20 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'could not connect to database' in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php:21
+Stack trace:
+#0 /home/personalcuidador/public_html/seminario_mossoro/class/sql/Connection.class.php(12): ConnectionFactory::getConnection()
+#1 /home/personalcuidador/public_html/seminario_mossoro/class/sql/QueryExecutor.class.php(20): Connection->Connection()
+#2 /home/personalcuidador/public_html/seminario_mossoro/class/mysql/UsuarioMySqlDAO.class.php(231): QueryExecutor::execute(Object(SqlQuery))
+#3 /home/personalcuidador/public_html/seminario_mossoro/class/mysql/UsuarioMySqlDAO.class.php(38): UsuarioMySqlDAO->getRow(Object(SqlQuery))
+#4 /home/personalcuidador/public_html/seminario_mossoro/controle/validarUsuario.php(6): UsuarioMySqlDAO->validarUsuario('betobaracho', '10203040')
+#5 {main}
+  thrown in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 21
+[13-Oct-2018 22:18:04 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 18
+[13-Oct-2018 22:18:04 UTC] PHP Warning:  mysql_select_db(): Access denied for user ''@'localhost' (using password: NO) in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 19
+[13-Oct-2018 22:18:04 UTC] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 19
+[13-Oct-2018 22:18:04 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'could not connect to database' in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php:21
+Stack trace:
+#0 /home/personalcuidador/public_html/seminario_mossoro/class/sql/Connection.class.php(12): ConnectionFactory::getConnection()
+#1 /home/personalcuidador/public_html/seminario_mossoro/class/sql/QueryExecutor.class.php(20): Connection->Connection()
+#2 /home/personalcuidador/public_html/seminario_mossoro/class/mysql/UsuarioMySqlDAO.class.php(231): QueryExecutor::execute(Object(SqlQuery))
+#3 /home/personalcuidador/public_html/seminario_mossoro/class/mysql/UsuarioMySqlDAO.class.php(38): UsuarioMySqlDAO->getRow(Object(SqlQuery))
+#4 /home/personalcuidador/public_html/seminario_mossoro/controle/validarUsuario.php(6): UsuarioMySqlDAO->validarUsuario('betobaracho', '10203040')
+#5 {main}
+  thrown in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 21
+[13-Oct-2018 22:18:50 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 18
+[13-Oct-2018 22:18:50 UTC] PHP Warning:  mysql_select_db(): Access denied for user ''@'localhost' (using password: NO) in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 19
+[13-Oct-2018 22:18:50 UTC] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 19
+[13-Oct-2018 22:18:50 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'could not connect to database' in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php:21
+Stack trace:
+#0 /home/personalcuidador/public_html/seminario_mossoro/class/sql/Connection.class.php(12): ConnectionFactory::getConnection()
+#1 /home/personalcuidador/public_html/seminario_mossoro/class/sql/QueryExecutor.class.php(20): Connection->Connection()
+#2 /home/personalcuidador/public_html/seminario_mossoro/class/mysql/UsuarioMySqlDAO.class.php(231): QueryExecutor::execute(Object(SqlQuery))
+#3 /home/personalcuidador/public_html/seminario_mossoro/class/mysql/UsuarioMySqlDAO.class.php(38): UsuarioMySqlDAO->getRow(Object(SqlQuery))
+#4 /home/personalcuidador/public_html/seminario_mossoro/controle/validarUsuario.php(6): UsuarioMySqlDAO->validarUsuario('betobaracho', '10203040')
+#5 {main}
+  thrown in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 21
+[13-Oct-2018 22:21:15 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 18
+[13-Oct-2018 22:21:15 UTC] PHP Warning:  mysql_select_db(): Access denied for user ''@'localhost' (using password: NO) in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 19
+[13-Oct-2018 22:21:15 UTC] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 19
+[13-Oct-2018 22:21:15 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'could not connect to database' in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php:21
+Stack trace:
+#0 /home/personalcuidador/public_html/seminario_mossoro/class/sql/Connection.class.php(12): ConnectionFactory::getConnection()
+#1 /home/personalcuidador/public_html/seminario_mossoro/class/sql/QueryExecutor.class.php(20): Connection->Connection()
+#2 /home/personalcuidador/public_html/seminario_mossoro/class/mysql/UsuarioMySqlDAO.class.php(231): QueryExecutor::execute(Object(SqlQuery))
+#3 /home/personalcuidador/public_html/seminario_mossoro/class/mysql/UsuarioMySqlDAO.class.php(38): UsuarioMySqlDAO->getRow(Object(SqlQuery))
+#4 /home/personalcuidador/public_html/seminario_mossoro/controle/validarUsuario.php(6): UsuarioMySqlDAO->validarUsuario('betobaracho', '10203040')
+#5 {main}
+  thrown in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 21
+[13-Oct-2018 22:45:00 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 18
+[13-Oct-2018 22:45:00 UTC] PHP Warning:  mysql_select_db(): Access denied for user ''@'localhost' (using password: NO) in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 19
+[13-Oct-2018 22:45:00 UTC] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 19
+[13-Oct-2018 22:45:00 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'could not connect to database' in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php:21
+Stack trace:
+#0 /home/personalcuidador/public_html/seminario_mossoro/class/sql/Connection.class.php(12): ConnectionFactory::getConnection()
+#1 /home/personalcuidador/public_html/seminario_mossoro/class/sql/QueryExecutor.class.php(20): Connection->Connection()
+#2 /home/personalcuidador/public_html/seminario_mossoro/class/mysql/UsuarioMySqlDAO.class.php(231): QueryExecutor::execute(Object(SqlQuery))
+#3 /home/personalcuidador/public_html/seminario_mossoro/class/mysql/UsuarioMySqlDAO.class.php(38): UsuarioMySqlDAO->getRow(Object(SqlQuery))
+#4 /home/personalcuidador/public_html/seminario_mossoro/controle/validarUsuario.php(6): UsuarioMySqlDAO->validarUsuario('betobaracho', '10203040')
+#5 {main}
+  thrown in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 21
+[13-Oct-2018 22:47:01 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 18
+[13-Oct-2018 22:47:01 UTC] PHP Warning:  mysql_select_db(): Access denied for user ''@'localhost' (using password: NO) in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 19
+[13-Oct-2018 22:47:01 UTC] PHP Warning:  mysql_select_db(): A link to the server could not be established in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 19
+[13-Oct-2018 22:47:01 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'could not connect to database' in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php:21
+Stack trace:
+#0 /home/personalcuidador/public_html/seminario_mossoro/class/sql/Connection.class.php(12): ConnectionFactory::getConnection()
+#1 /home/personalcuidador/public_html/seminario_mossoro/class/sql/QueryExecutor.class.php(20): Connection->Connection()
+#2 /home/personalcuidador/public_html/seminario_mossoro/class/mysql/UsuarioMySqlDAO.class.php(231): QueryExecutor::execute(Object(SqlQuery))
+#3 /home/personalcuidador/public_html/seminario_mossoro/class/mysql/UsuarioMySqlDAO.class.php(38): UsuarioMySqlDAO->getRow(Object(SqlQuery))
+#4 /home/personalcuidador/public_html/seminario_mossoro/controle/validarUsuario.php(6): UsuarioMySqlDAO->validarUsuario('betobaracho', '10203040')
+#5 {main}
+  thrown in /home/personalcuidador/public_html/seminario_mossoro/class/sql/ConnectionFactory.class.php on line 21
