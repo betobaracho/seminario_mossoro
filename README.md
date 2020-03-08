@@ -1,1 +1,1 @@
-# seminario_mossoro
+# seminario_são pedro
